@@ -1,82 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Grupo - Pensamento Computacional</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
+    <!-- Cabeçalho (linha 27 a 35) -->
+    <header>
+        <img src="img/foto_site.jpg" alt="Imagem do grupo" class="foto-site">
+        <h1>Grupo de Pensamento Computacional</h1>
+    </header>
 
-    <body>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="project.html">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contato</a>
-                    </li>
-                </ul>
-            </nav>
+    <!-- Sobre nós (linha 36 a 51) -->
+    <section class="sobre">
+        <h2>Quem Somos</h2>
+        <p>Somos um grupo de estudantes apaixonados por tecnologia e inovação. Nosso objetivo é aprender programação de forma criativa e colaborativa, desenvolvendo projetos que mostram como o pensamento computacional pode transformar ideias em soluções digitais. 💻✨</p>
 
-            <header class="center">
-                <div>
-                    <img src="./img/colegio_anchieta_frente_bx.jpg"></img>
-                </div>
-                <h1>Entre em contato!</h1>
-            </header>
-            <main>
-                <section>
-                    <h2>Estêvão Kochhann</h2>
-                    <p>
-                        estevaoki@edu.colegioanchieta.g12.br
-                    </p>
-                </section>
-                <section>
-                    <h2>Júlia Renner</h2>
-                    <p>
-                        email do aluno 02
-                    </p>
-                </section>
-                <section>
-                    <h2>Nome do Aluno 03</h2>
-                    <p>
-                        email do aluno 03
-                    </p>
-                </section>
-                <section>
-                    <h2>Nome do Aluno 04</h2>
-                    <p>
-                        email do aluno 04
-                    </p>
-                </section>
-                <section>
-                    <h2>Nome do Aluno 05</h2>
-                    <p>
-                        email do aluno 05
-                    </p>
-                </section>
-            </main>
-            
-            
-            <form class="contact-form" action="colegioanchieta@colegioanchieta.g12.br" method="POST">
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" required>
-                </div>
-                <div>
-                    <label for="message">Mensagem</label>
-                    <input type="text" id="message" name="message" required>
-                </div>
-                <button type="submit">Send</button>
-                <input type="hidden" name="_next" value="https://github.com/renatoveigamjprof/">
-                <input type="hidden" name="_subject" value="New submission!">
-            </form>
+        <ul>
+            <li><strong>Estêvão</strong> – criativo e curioso sobre tecnologia.</li>
+            <li><strong>Júlia Renner</strong> – detalhista e apaixonada por design.</li>
+            <li><strong>Luana</strong> – adora desafios e novas linguagens.</li>
+            <li><strong>Maria Laura</strong> – organizada e ama aprender sobre web.</li>
+            <li><strong>Rafaella</strong> – focada em lógica e programação.</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé (linha 52 a 70) -->
+    <footer>
+        <h3>Conecte-se conosco:</h3>
+        <div class="links">
+            <a href="https://github.com/" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/school/colegio/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.youtube.com/@colegio" target="_blank"><img src="img/youtube.png" alt="YouTube"></a>
         </div>
-    </body
+        <p>© 2025 - Projeto Web | Grupo: Estêvão, Júlia Renner, Luana, Maria Laura e Rafaella</p>
+    </footer>
+
+</body>
+</html>
